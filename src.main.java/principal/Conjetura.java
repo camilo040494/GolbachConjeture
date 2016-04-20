@@ -9,7 +9,8 @@ public class Conjetura {
 	
 	public String darSumaPrimos(int suma) {
 		if (suma<4) {
-			//error
+			System.err.println("El valor no puede ser menor que 4");
+			return null;
 		}
 		int max = suma/2;
 		primos = new HashMap<>();
