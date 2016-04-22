@@ -1,5 +1,7 @@
 package principal;
-
+/*
+ * Programa desarrollado por Camilo Pimienta
+ */
 import java.util.HashMap;
 import java.util.TreeMap;
 
