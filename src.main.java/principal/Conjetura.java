@@ -1,6 +1,6 @@
 package principal;
 /*
- * Programa desarrollado por Camilo Pimienta
+* Programa desarrollado por Camilo Pimienta
 * Solución a la conjetura de Golbach
 */
 import java.util.HashMap;
@@ -58,7 +58,7 @@ public class Conjetura{
 		
 		for (int i = 3; i <= max; i+=2) {
 			if (i>501) {
-				System.out.println("-------------------------------");
+				System.out.println("-----------------------------");
 				break;
 			}
 			resta = suma-i;
