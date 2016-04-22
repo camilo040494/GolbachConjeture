@@ -1,9 +1,11 @@
 package principal;
-
+/*
+* Solución a la conjetura de Golbach
+*/
 import java.util.HashMap;
 import java.util.TreeMap;
 
-public class Conjetura {
+public class Conjetura{
 
 	HashMap<Integer, Boolean> primos;
 	
