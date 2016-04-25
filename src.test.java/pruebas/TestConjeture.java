@@ -1,11 +1,14 @@
 package pruebas;
 
 import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 import principal.Conjetura;
 
-public class Test {
+public class TestConjeture {
 
-	@org.junit.Test
+	@Test
 	public void test() {
 		Conjetura conje = new Conjetura();
 		int[] numeros = {4,5,6,7,8,9,10,11,12,13,14,15,16,17};
@@ -25,7 +28,6 @@ public class Test {
 		assertTrue(conje.esPrimo(41));
 		assertTrue(conje.esPrimo(61));
 		assertFalse(conje.esPrimo(21));
-		
 	}
 
 }
